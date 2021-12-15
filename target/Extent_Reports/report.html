@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 15, 2021 01:34:16 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 15, 2021 06:14:56 PM</span>
 				</a>
 			</li>
 			<li>
@@ -173,10 +173,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>5</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='43.75%'><span class='strong'>7</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='6.667%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='60%'>9</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='6.25%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>8</span> others
 				</div>
 			</div>
 		</div>
@@ -193,7 +193,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Employee Records</span>
-						<span class='test-time'>Dec 15, 2021 01:34:17 PM</span>
+						<span class='test-time'>Dec 15, 2021 06:14:56 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -202,7 +202,7 @@
 		<span class='category label white-text'>@smoke</span>
 		<span class='category label white-text'>@regression</span>
 	</div>
-	<span class='duration right label'>0h 0m 31s+364ms</span>
+	<span class='duration right label'>0h 0m 31s+950ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Admin should add users successfully</span>
@@ -248,54 +248,36 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='8' class='node when fail' status='fail'>
+		<li test-id='8' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When I click on Admin Tab</span>
-				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#menu_admin_viewAdminModule"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-29UVJ148', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8bf7d0c71ba750a0f1ba81fc4ad1603, findElement {using=id, value=menu_admin_viewAdminModule}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\chira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at com.demo.orangeHRM.utility.Utility.clickOnElement(Utility.java:71)
-	at com.demo.orangeHRM.pages.HomePage.setAdmin(HomePage.java:41)
-	at com.demo.orangeHRM.cucumber.steps.UserSteps.iClickOnAdminTab(UserSteps.java:137)
-	at ✽.When I click on Admin Tab(user.feature:14)
-</pre></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node and skip' status='skip'>
+		<li test-id='9' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I click on Add Button</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='10' class='node and skip' status='skip'>
+		<li test-id='10' class='node and fail' status='fail'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I Verify "Add User" Text message</span>
+				<div class='pre'><textarea>org.junit.ComparisonFailure: expected:<[Add User]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.demo.orangeHRM.cucumber.steps.UserSteps.iVerifyTextMessage(UserSteps.java:87)
+	at ✽.And I Verify "Add User" Text message(user.feature:16)
+</textarea></div>
+			
+		</li>
+		<li test-id='11' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -303,7 +285,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='11' class='node and skip' status='skip'>
+		<li test-id='12' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -311,7 +293,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='12' class='node and skip' status='skip'>
+		<li test-id='13' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -319,7 +301,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='13' class='node and skip' status='skip'>
+		<li test-id='14' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -327,7 +309,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='14' class='node and skip' status='skip'>
+		<li test-id='15' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -335,7 +317,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='15' class='node and skip' status='skip'>
+		<li test-id='16' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -343,7 +325,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='16' class='node and skip' status='skip'>
+		<li test-id='17' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -351,13 +333,13 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='17' class='node then skip' status='skip'>
+		<li test-id='18' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then I should able to verify message "Successfully Saved"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="C:\Users\chira\IdeaProjects\orangeHRM-cucumber-homework-week15/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211215013448.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="C:\Users\jpate\IdeaProjects\Cucumber-home-work-week-15-OrangeHRM/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211215061528.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>skipped</div>
 			
@@ -441,7 +423,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 15, 2021 01:34:17 PM</td>
+										<td>Dec 15, 2021 06:14:56 PM</td>
 										<td class='linked' test-id='1'>Employee Records</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -475,7 +457,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 15, 2021 01:34:17 PM</td>
+										<td>Dec 15, 2021 06:14:56 PM</td>
 										<td class='linked' test-id='2'>Employee Records.Admin should add users successfully</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -509,7 +491,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 15, 2021 01:34:17 PM</td>
+										<td>Dec 15, 2021 06:14:56 PM</td>
 										<td class='linked' test-id='2'>Employee Records.Admin should add users successfully</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -557,7 +539,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+                                <span class='exception-name'>org.junit.ComparisonFailure</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -572,40 +554,14 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Dec 15, 2021 01:34:28 PM</td>
-                                                        <td class='linked' test-id='8'>Employee Records.Admin should add users successfully.When I click on Admin Tab</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#menu_admin_viewAdminModule"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-29UVJ148', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8bf7d0c71ba750a0f1ba81fc4ad1603, findElement {using=id, value=menu_admin_viewAdminModule}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\chira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at com.demo.orangeHRM.utility.Utility.clickOnElement(Utility.java:71)
-	at com.demo.orangeHRM.pages.HomePage.setAdmin(HomePage.java:41)
-	at com.demo.orangeHRM.cucumber.steps.UserSteps.iClickOnAdminTab(UserSteps.java:137)
-	at ✽.When I click on Admin Tab(user.feature:14)
-</pre></pre></td>
+                                                        <td>Dec 15, 2021 06:15:28 PM</td>
+                                                        <td class='linked' test-id='10'>Employee Records.Admin should add users successfully.And I Verify "Add User" Text message</td>
+                                                        <td><pre><textarea>org.junit.ComparisonFailure: expected:<[Add User]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.demo.orangeHRM.cucumber.steps.UserSteps.iVerifyTextMessage(UserSteps.java:87)
+	at ✽.And I Verify "Add User" Text message(user.feature:16)
+</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -643,25 +599,25 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>15</div>
+					<div class='panel-lead'>16</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 15, 2021 01:34:16 PM</div>
+					<div class='panel-lead'>Dec 15, 2021 06:14:56 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 15, 2021 01:34:49 PM</div>
+			 		<div class='panel-lead'>Dec 15, 2021 06:15:29 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>32,929ms</div>
+					<div class='panel-lead'>33,239ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -675,7 +631,7 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 						</tr>
 							<tr>
 								<td>User Name</td>
-								<td>chira</td>
+								<td>jpate</td>
 							</tr>
 							<tr>
 								<td>Time Zone</td>
@@ -769,14 +725,14 @@ Session ID: e8bf7d0c71ba750a0f1ba81fc4ad1603
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 5,
+				passGrandChild: 7,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 9,
+				skipGrandChild: 8,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 10,
+				exceptionsGrandChild: 9,
 			};
 		</script>
 		

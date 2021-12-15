@@ -8,9 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
-/**
- * By Nidhi Patel
- **/
+
 public class ViewSystemUsersPage extends Utility {
 
     private static final Logger log = LogManager.getLogger(ViewSystemUsersPage.class.getName());

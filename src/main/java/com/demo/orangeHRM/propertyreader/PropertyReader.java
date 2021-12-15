@@ -3,9 +3,7 @@ package com.demo.orangeHRM.propertyreader;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-/**
- * By Nidhi Patel
- **/
+
 public class PropertyReader {
 
     /*

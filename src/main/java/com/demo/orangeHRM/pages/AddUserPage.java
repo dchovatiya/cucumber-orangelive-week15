@@ -8,9 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
 
-/**
- * By Nidhi Patel
- **/
 public class AddUserPage extends Utility {
 
 

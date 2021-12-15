@@ -8,9 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
-/**
- * By Nidhi Patel
- **/
+
 public class HomePage extends Utility {
     private static final Logger log = LogManager.getLogger(AddUserPage.class.getName());
     public HomePage() {

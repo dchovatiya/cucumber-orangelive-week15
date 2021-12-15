@@ -8,9 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-/**
- * By Bhoomi
- **/
+
 public class LoginSteps {
     @Given("^I am on Login page$")
     public void iAmOnLoginPage() {
@@ -56,15 +54,6 @@ public class LoginSteps {
 
 
     }
-
-   /* @When("^I click on User profile logo$")
-    public void iClickOnUserProfileLogo(String logoPresent) {
-
-*//*        Assert.assertEquals(exceptedMessage, new LoginPage().setVerifyLogo());
-        Boolean logoPresent = verifyLogo.isDisplayed();*//*
-       Assert.assertTrue(logoPresent, new LoginPage().setVerifyLogo());
-    }*/
-
     @And("^I click on logout$")
     public void iClickOnLogout() {
         new LoginPage().setClickLogout();

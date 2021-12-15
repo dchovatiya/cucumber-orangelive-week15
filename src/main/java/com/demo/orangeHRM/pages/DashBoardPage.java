@@ -5,10 +5,7 @@ import com.demo.orangeHRM.utility.Utility;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-/**
- * By Nidhi Patel
- **/
-public class DashBoardPage extends Utility {
+ public class DashBoardPage extends Utility {
     public DashBoardPage() {
         PageFactory.initElements(driver, this);
     }

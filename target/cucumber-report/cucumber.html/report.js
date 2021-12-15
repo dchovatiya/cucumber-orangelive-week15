@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 9076362100,
+  "duration": 6855597800,
   "status": "passed"
 });
 formatter.background({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "LoginSteps.iAmOnLoginPage()"
 });
 formatter.result({
-  "duration": 193623500,
+  "duration": 162599901,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "LoginSteps.iEnterUsername(String)"
 });
 formatter.result({
-  "duration": 207781700,
+  "duration": 219897600,
   "status": "passed"
 });
 formatter.match({
@@ -78,21 +78,21 @@ formatter.match({
   "location": "LoginSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 125975900,
+  "duration": 126700800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 1474857100,
+  "duration": 2808679201,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 72600,
+  "duration": 26900,
   "status": "passed"
 });
 formatter.scenario({
@@ -124,12 +124,11 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 16,
-      "value": "#   And I Verify \"Add User\" Text message"
-    }
-  ],
+  "line": 16,
+  "name": "I Verify \"Add User\" Text message",
+  "keyword": "And "
+});
+formatter.step({
   "line": 17,
   "name": "I select User Role \"ESS\"",
   "keyword": "And "
@@ -173,15 +172,29 @@ formatter.match({
   "location": "UserSteps.iClickOnAdminTab()"
 });
 formatter.result({
-  "duration": 20059036200,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_admin_viewAdminModule\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-29UVJ148\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e8bf7d0c71ba750a0f1ba81fc4ad1603, findElement {using\u003did, value\u003dmenu_admin_viewAdminModule}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\chira\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e8bf7d0c71ba750a0f1ba81fc4ad1603\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat com.demo.orangeHRM.utility.Utility.clickOnElement(Utility.java:71)\r\n\tat com.demo.orangeHRM.pages.HomePage.setAdmin(HomePage.java:41)\r\n\tat com.demo.orangeHRM.cucumber.steps.UserSteps.iClickOnAdminTab(UserSteps.java:137)\r\n\tat ✽.When I click on Admin Tab(user.feature:14)\r\n",
-  "status": "failed"
+  "duration": 897645600,
+  "status": "passed"
 });
 formatter.match({
   "location": "UserSteps.iClickOnAddButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 20611094999,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Add User",
+      "offset": 10
+    }
+  ],
+  "location": "UserSteps.iVerifyTextMessage(String)"
+});
+formatter.result({
+  "duration": 42889301,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Add User]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.demo.orangeHRM.cucumber.steps.UserSteps.iVerifyTextMessage(UserSteps.java:87)\r\n\tat ✽.And I Verify \"Add User\" Text message(user.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -274,7 +287,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 1083542100,
+  "duration": 969875000,
   "status": "passed"
 });
 });

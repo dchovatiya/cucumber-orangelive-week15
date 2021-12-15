@@ -9,9 +9,7 @@ import cucumber.api.java.Before;
 
 import java.io.IOException;
 
-/**
- * By Bhoomi
- **/
+
 public class Hooks extends Utility {
 
     @Before

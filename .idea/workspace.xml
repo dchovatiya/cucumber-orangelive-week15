@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b7d6744-38fd-4c50-a6c4-18a16d054919" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/drivermanager/ManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/drivermanager/ManageDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/logs/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/AddUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/AddUserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/ViewSystemUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/pages/ViewSystemUsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/propertyreader/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/propertyreader/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211212090333.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211212091947.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211212092532.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211213020506.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211213021706.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211213022637.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211215013029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_add_users_successfully20211215013448.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_delete_the_users_successfully20211212092037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_delete_the_users_successfully20211212092624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_delete_the_users_successfully20211213022704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_search_employee_details20211215125316.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_search_the_deleted_user_And_verify_the_message_no_record_found20211212092130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/Admin_should_search_the_deleted_user_And_verify_the_message_no_record_found20211212092720.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213014747.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213015451.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213120552.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213120707.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213121030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213122922.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213123120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_login_successfully_with_valid_credentials20211213123433.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213010119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213013645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213013952.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213015521.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213121056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213122802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213123155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213123444.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/orangeHRM/screenshots/User_should_logout_successfully20211213124528.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/UserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/registerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/orangeHRM/cucumber/steps/registerSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/drivermanager/ManageDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/drivermanager/ManageDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/AddUserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/AddUserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/AdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/AdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/DashBoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/DashBoardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/ViewSystemUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/pages/ViewSystemUsersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/propertyreader/PropertyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/orangeHRM/propertyreader/PropertyReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/UserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/registerSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/orangeHRM/cucumber/steps/registerSteps.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22Kg2LSrG3hn8wz5SYTFLOt8CdV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JUnit.SmokeTestRunner">
+    <configuration name="Feature: user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/user.feature" />
+      <option name="GLUE" value="com.demo.orangeHRM.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="sample-cucumber-project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: user" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegressionTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample-cucumber-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.orangeHRM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.orangeHRM" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.orangeHRM.RegressionTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanityTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample-cucumber-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.orangeHRM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.orangeHRM" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.orangeHRM.SanityTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample-cucumber-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.orangeHRM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.orangeHRM" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.orangeHRM.SmokeTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmokeTestRunner" />
+        <item itemvalue="JUnit.SanityTestRunner" />
+        <item itemvalue="JUnit.RegressionTestRunner" />
+        <item itemvalue="Cucumber Java.Feature: user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b7d6744-38fd-4c50-a6c4-18a16d054919" name="Changes" comment="" />
+      <created>1639591486794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639591486794</updated>
+    </task>
+    <servers />
+  </component>
+</project>

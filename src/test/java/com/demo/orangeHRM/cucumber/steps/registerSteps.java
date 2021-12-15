@@ -7,9 +7,7 @@ import cucumber.api.java.en.When;
 
 import java.util.List;
 
-/**
- * By Bhoomi
- **/
+
 public class registerSteps {
 
 }

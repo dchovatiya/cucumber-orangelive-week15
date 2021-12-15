@@ -12,9 +12,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
-/**
- * By Nidhi Patel
- **/
+
 public class ManageDriver {
 private static final Logger log = LogManager.getLogger(ManageDriver.class.getName());
     public static WebDriver driver;
